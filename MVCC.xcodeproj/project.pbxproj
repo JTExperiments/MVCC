@@ -9,12 +9,27 @@
 /* Begin PBXBuildFile section */
 		1A87D91B1C52A00C00B5C53F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D91A1C52A00C00B5C53F /* main.m */; };
 		1A87D91E1C52A00C00B5C53F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D91D1C52A00C00B5C53F /* AppDelegate.m */; };
-		1A87D9211C52A00C00B5C53F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D9201C52A00C00B5C53F /* ViewController.m */; };
 		1A87D9241C52A00C00B5C53F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A87D9221C52A00C00B5C53F /* Main.storyboard */; };
 		1A87D9261C52A00D00B5C53F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A87D9251C52A00D00B5C53F /* Assets.xcassets */; };
 		1A87D9291C52A00D00B5C53F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A87D9271C52A00D00B5C53F /* LaunchScreen.storyboard */; };
 		1A87D9341C52A00D00B5C53F /* MVCCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D9331C52A00D00B5C53F /* MVCCTests.m */; };
 		1A87D93F1C52A00D00B5C53F /* MVCCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D93E1C52A00D00B5C53F /* MVCCUITests.m */; };
+		1A87D94E1C52A02100B5C53F /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D94D1C52A02100B5C53F /* HomeController.m */; };
+		1A87D9511C52A03D00B5C53F /* AddController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D9501C52A03D00B5C53F /* AddController.m */; };
+		1A87D9541C52A04300B5C53F /* DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D9531C52A04300B5C53F /* DetailController.m */; };
+		1A87D9571C52A0FF00B5C53F /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D9561C52A0FF00B5C53F /* BaseController.m */; };
+		1A87D95A1C52A14800B5C53F /* ViewControllerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D9591C52A14800B5C53F /* ViewControllerFactory.m */; };
+		1A87D95D1C52A1C100B5C53F /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D95C1C52A1C100B5C53F /* Item.m */; };
+		1A87D9601C52A24E00B5C53F /* MockHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D95F1C52A24E00B5C53F /* MockHomeViewController.m */; };
+		1A87D9631C52A27600B5C53F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D9621C52A27600B5C53F /* HomeViewController.m */; };
+		1A87D9661C52AC0300B5C53F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D9651C52AC0300B5C53F /* DetailViewController.m */; };
+		1A87D9691C52AE2D00B5C53F /* MockViewControllerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D9681C52AE2D00B5C53F /* MockViewControllerFactory.m */; };
+		1A87D96C1C52AE4E00B5C53F /* MockDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D96B1C52AE4E00B5C53F /* MockDetailViewController.m */; };
+		1A87D96F1C52AF1A00B5C53F /* MockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D96E1C52AF1A00B5C53F /* MockViewController.m */; };
+		1A87D9721C52B5EA00B5C53F /* UIViewController+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D9711C52B5EA00B5C53F /* UIViewController+ViewController.m */; };
+		1A87D9771C532F7500B5C53F /* MockNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D9761C532F7500B5C53F /* MockNavViewController.m */; };
+		1A87D9791C53303300B5C53F /* ViewControllerFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D9781C53303300B5C53F /* ViewControllerFactoryTests.m */; };
+		1A87D97C1C53328A00B5C53F /* UINavigationController+NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D97B1C53328A00B5C53F /* UINavigationController+NavViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +55,6 @@
 		1A87D91C1C52A00C00B5C53F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1A87D91D1C52A00C00B5C53F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1A87D91F1C52A00C00B5C53F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1A87D9201C52A00C00B5C53F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1A87D9231C52A00C00B5C53F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A87D9251C52A00D00B5C53F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A87D9281C52A00D00B5C53F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +65,38 @@
 		1A87D93A1C52A00D00B5C53F /* MVCCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVCCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A87D93E1C52A00D00B5C53F /* MVCCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCCUITests.m; sourceTree = "<group>"; };
 		1A87D9401C52A00D00B5C53F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A87D94C1C52A02100B5C53F /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		1A87D94D1C52A02100B5C53F /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		1A87D94F1C52A03D00B5C53F /* AddController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddController.h; sourceTree = "<group>"; };
+		1A87D9501C52A03D00B5C53F /* AddController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddController.m; sourceTree = "<group>"; };
+		1A87D9521C52A04300B5C53F /* DetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailController.h; sourceTree = "<group>"; };
+		1A87D9531C52A04300B5C53F /* DetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailController.m; sourceTree = "<group>"; };
+		1A87D9551C52A0FF00B5C53F /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
+		1A87D9561C52A0FF00B5C53F /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
+		1A87D9581C52A14800B5C53F /* ViewControllerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerFactory.h; sourceTree = "<group>"; };
+		1A87D9591C52A14800B5C53F /* ViewControllerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerFactory.m; sourceTree = "<group>"; };
+		1A87D95B1C52A1C100B5C53F /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		1A87D95C1C52A1C100B5C53F /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		1A87D95E1C52A24E00B5C53F /* MockHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockHomeViewController.h; sourceTree = "<group>"; };
+		1A87D95F1C52A24E00B5C53F /* MockHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockHomeViewController.m; sourceTree = "<group>"; };
+		1A87D9611C52A27600B5C53F /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		1A87D9621C52A27600B5C53F /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		1A87D9641C52AC0300B5C53F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		1A87D9651C52AC0300B5C53F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		1A87D9671C52AE2D00B5C53F /* MockViewControllerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockViewControllerFactory.h; sourceTree = "<group>"; };
+		1A87D9681C52AE2D00B5C53F /* MockViewControllerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockViewControllerFactory.m; sourceTree = "<group>"; };
+		1A87D96A1C52AE4E00B5C53F /* MockDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockDetailViewController.h; sourceTree = "<group>"; };
+		1A87D96B1C52AE4E00B5C53F /* MockDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockDetailViewController.m; sourceTree = "<group>"; };
+		1A87D96D1C52AF1A00B5C53F /* MockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockViewController.h; sourceTree = "<group>"; };
+		1A87D96E1C52AF1A00B5C53F /* MockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockViewController.m; sourceTree = "<group>"; };
+		1A87D9701C52B5EA00B5C53F /* UIViewController+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ViewController.h"; sourceTree = "<group>"; };
+		1A87D9711C52B5EA00B5C53F /* UIViewController+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ViewController.m"; sourceTree = "<group>"; };
+		1A87D9741C532EA000B5C53F /* NavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavViewController.h; sourceTree = "<group>"; };
+		1A87D9751C532F7500B5C53F /* MockNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockNavViewController.h; sourceTree = "<group>"; };
+		1A87D9761C532F7500B5C53F /* MockNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockNavViewController.m; sourceTree = "<group>"; };
+		1A87D9781C53303300B5C53F /* ViewControllerFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerFactoryTests.m; sourceTree = "<group>"; };
+		1A87D97A1C53328A00B5C53F /* UINavigationController+NavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+NavViewController.h"; sourceTree = "<group>"; };
+		1A87D97B1C53328A00B5C53F /* UINavigationController+NavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+NavViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +149,33 @@
 			children = (
 				1A87D91C1C52A00C00B5C53F /* AppDelegate.h */,
 				1A87D91D1C52A00C00B5C53F /* AppDelegate.m */,
-				1A87D91F1C52A00C00B5C53F /* ViewController.h */,
-				1A87D9201C52A00C00B5C53F /* ViewController.m */,
 				1A87D9221C52A00C00B5C53F /* Main.storyboard */,
 				1A87D9251C52A00D00B5C53F /* Assets.xcassets */,
 				1A87D9271C52A00D00B5C53F /* LaunchScreen.storyboard */,
 				1A87D92A1C52A00D00B5C53F /* Info.plist */,
 				1A87D9191C52A00C00B5C53F /* Supporting Files */,
+				1A87D91F1C52A00C00B5C53F /* ViewController.h */,
+				1A87D9741C532EA000B5C53F /* NavViewController.h */,
+				1A87D9701C52B5EA00B5C53F /* UIViewController+ViewController.h */,
+				1A87D9711C52B5EA00B5C53F /* UIViewController+ViewController.m */,
+				1A87D97A1C53328A00B5C53F /* UINavigationController+NavViewController.h */,
+				1A87D97B1C53328A00B5C53F /* UINavigationController+NavViewController.m */,
+				1A87D9581C52A14800B5C53F /* ViewControllerFactory.h */,
+				1A87D9591C52A14800B5C53F /* ViewControllerFactory.m */,
+				1A87D9611C52A27600B5C53F /* HomeViewController.h */,
+				1A87D9621C52A27600B5C53F /* HomeViewController.m */,
+				1A87D9641C52AC0300B5C53F /* DetailViewController.h */,
+				1A87D9651C52AC0300B5C53F /* DetailViewController.m */,
+				1A87D9551C52A0FF00B5C53F /* BaseController.h */,
+				1A87D9561C52A0FF00B5C53F /* BaseController.m */,
+				1A87D94C1C52A02100B5C53F /* HomeController.h */,
+				1A87D94D1C52A02100B5C53F /* HomeController.m */,
+				1A87D94F1C52A03D00B5C53F /* AddController.h */,
+				1A87D9501C52A03D00B5C53F /* AddController.m */,
+				1A87D9521C52A04300B5C53F /* DetailController.h */,
+				1A87D9531C52A04300B5C53F /* DetailController.m */,
+				1A87D95B1C52A1C100B5C53F /* Item.h */,
+				1A87D95C1C52A1C100B5C53F /* Item.m */,
 			);
 			path = MVCC;
 			sourceTree = "<group>";
@@ -126,6 +192,17 @@
 			isa = PBXGroup;
 			children = (
 				1A87D9331C52A00D00B5C53F /* MVCCTests.m */,
+				1A87D9781C53303300B5C53F /* ViewControllerFactoryTests.m */,
+				1A87D96D1C52AF1A00B5C53F /* MockViewController.h */,
+				1A87D96E1C52AF1A00B5C53F /* MockViewController.m */,
+				1A87D95E1C52A24E00B5C53F /* MockHomeViewController.h */,
+				1A87D95F1C52A24E00B5C53F /* MockHomeViewController.m */,
+				1A87D9671C52AE2D00B5C53F /* MockViewControllerFactory.h */,
+				1A87D9681C52AE2D00B5C53F /* MockViewControllerFactory.m */,
+				1A87D9751C532F7500B5C53F /* MockNavViewController.h */,
+				1A87D9761C532F7500B5C53F /* MockNavViewController.m */,
+				1A87D96A1C52AE4E00B5C53F /* MockDetailViewController.h */,
+				1A87D96B1C52AE4E00B5C53F /* MockDetailViewController.m */,
 				1A87D9351C52A00D00B5C53F /* Info.plist */,
 			);
 			path = MVCCTests;
@@ -270,7 +347,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A87D9211C52A00C00B5C53F /* ViewController.m in Sources */,
+				1A87D95D1C52A1C100B5C53F /* Item.m in Sources */,
+				1A87D94E1C52A02100B5C53F /* HomeController.m in Sources */,
+				1A87D97C1C53328A00B5C53F /* UINavigationController+NavViewController.m in Sources */,
+				1A87D95A1C52A14800B5C53F /* ViewControllerFactory.m in Sources */,
+				1A87D9631C52A27600B5C53F /* HomeViewController.m in Sources */,
+				1A87D9571C52A0FF00B5C53F /* BaseController.m in Sources */,
+				1A87D9541C52A04300B5C53F /* DetailController.m in Sources */,
+				1A87D9661C52AC0300B5C53F /* DetailViewController.m in Sources */,
+				1A87D9511C52A03D00B5C53F /* AddController.m in Sources */,
+				1A87D9721C52B5EA00B5C53F /* UIViewController+ViewController.m in Sources */,
 				1A87D91E1C52A00C00B5C53F /* AppDelegate.m in Sources */,
 				1A87D91B1C52A00C00B5C53F /* main.m in Sources */,
 			);
@@ -280,7 +366,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A87D9771C532F7500B5C53F /* MockNavViewController.m in Sources */,
+				1A87D9691C52AE2D00B5C53F /* MockViewControllerFactory.m in Sources */,
+				1A87D96C1C52AE4E00B5C53F /* MockDetailViewController.m in Sources */,
+				1A87D9791C53303300B5C53F /* ViewControllerFactoryTests.m in Sources */,
 				1A87D9341C52A00D00B5C53F /* MVCCTests.m in Sources */,
+				1A87D9601C52A24E00B5C53F /* MockHomeViewController.m in Sources */,
+				1A87D96F1C52AF1A00B5C53F /* MockViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

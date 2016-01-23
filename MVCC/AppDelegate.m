@@ -7,8 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "HomeController.h"
+#import "HomeViewController.h"
 
 @interface AppDelegate ()
+
+@property (nonatomic, strong) HomeController *homeController;
 
 @end
 
@@ -17,6 +21,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    UINavigationController *navController = (UINavigationController *)self.window.rootViewController;
+    self.homeController = [HomeController controllerWithViewController:[navController childViewControllers][0]];
+    self.homeController.factory = [[ViewControllerFactory alloc] init];
+    HomeViewController *viewController = [navController childViewControllers][0];
+    viewController.controller = self.homeController;
     return YES;
 }
 

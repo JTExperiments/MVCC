@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MockViewController.h
 //  MVCC
 //
 //  Created by James Tang on 23/1/2016.
@@ -7,14 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ViewController.h"
 
-@protocol ViewController <NSObject>
+@interface MockViewController : NSObject <ViewController>
 
 @property (nonatomic, weak) id controller;
 @property (nonatomic, copy) NSString *title;
 
-- (void)presentViewController:(id <ViewController>)controller;
-- (void)pushViewController:(id <ViewController>)controller;
-- (void)popViewController;
+@property (nonatomic) NSUInteger pushCount;
+@property (nonatomic) NSUInteger presentCount;
+@property (nonatomic) NSUInteger popCount;
 
 @end
