@@ -11,6 +11,7 @@
 #import "MockNavViewController.h"
 #import "MockHomeViewController.h"
 #import "MockViewController.h"
+#import "MockAddViewController.h"
 
 @implementation MockViewControllerFactory
 
@@ -28,6 +29,10 @@
 
 - (id <HomeViewController>)homeViewController {
     return [[MockHomeViewController alloc] init];
+}
+
+- (id <AddViewController>)addViewController {
+    return [[MockAddViewController alloc] init];
 }
 
 @end

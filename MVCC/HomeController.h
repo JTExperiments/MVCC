@@ -8,16 +8,19 @@
 
 #import <Foundation/Foundation.h>
 #import "BaseController.h"
-#import "HomeViewController.h"
+#import "AddControllerDelegate.h"
 
 @class Item;
 @class DetailController;
+@class AddController;
 
-@interface HomeController : BaseController
+@interface HomeController : BaseController <AddControllerDelegate>
 
 @property (nonatomic, strong) NSArray *items;
 @property (nonatomic, strong) DetailController *detailController;
+@property (nonatomic, strong) AddController *addController;
 
 - (void)itemSelected:(Item *)item;
+- (void)startAddingItem;
 
 @end

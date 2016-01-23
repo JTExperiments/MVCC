@@ -50,6 +50,12 @@
     XCTAssertTrue([vc conformsToProtocol:@protocol(ViewController)]);
 }
 
+- (void)testAddView {
+    id <AddViewController> vc = [_factory addViewController];
+    XCTAssertNotNil(vc);
+    XCTAssertTrue([vc conformsToProtocol:@protocol(AddViewController)]);
+}
+
 - (void)testNavigationView {
     id <ViewController> vc = [_factory viewController];
     id <NavViewController> nvc = [_factory navViewControllerWithViewController:vc];

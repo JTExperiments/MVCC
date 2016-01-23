@@ -17,6 +17,13 @@
     return controller;
 }
 
+- (void)presentController:(BaseController *)controller {
+    controller.parentController = self;
+    controller.presentingController = self;
+    self.presentedController = controller;
+    [self.viewController presentViewController:controller.viewController];
+}
+
 - (void)pushController:(BaseController *)controller {
     controller.parentController = self;
     [self.viewController pushViewController:controller.viewController];

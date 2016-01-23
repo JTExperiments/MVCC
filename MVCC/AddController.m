@@ -7,7 +7,12 @@
 //
 
 #import "AddController.h"
+#import "Item.h"
 
 @implementation AddController
+
+- (void)addItem:(Item *)item {
+    [self.delegate addController:self didAddItem:item];
+}
 
 @end

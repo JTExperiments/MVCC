@@ -15,7 +15,10 @@
 @property (nonatomic, strong) ObjectType viewController;
 @property (nonatomic, strong) id <ViewControllerFactory> factory;
 @property (nonatomic, weak) BaseController *parentController;
+@property (nonatomic, strong) BaseController *presentedController;
+@property (nonatomic, weak) BaseController *presentingController;
 
+- (void)presentController:(BaseController *)controller;
 - (void)pushController:(BaseController *)controller;
 - (void)popController;
 - (void)controllerDidPop:(BaseController *)controller;

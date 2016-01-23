@@ -12,6 +12,8 @@
 @class Item;
 @class HomeController;
 
+typedef HomeController HomeControllerInterface;
+
 @protocol HomeViewController <ViewController>
 
 @property (weak, nonatomic) HomeController *controller;
@@ -19,7 +21,7 @@
 
 @end
 
-@interface HomeViewController : UIViewController <HomeViewController, UITableViewDataSource, UITableViewDelegate>
+@interface HomeViewController : ViewController <HomeViewController, UITableViewDataSource, UITableViewDelegate>
 
 @property (weak, nonatomic) HomeController *controller;
 @property (nonatomic, weak) IBOutlet UITableView *tableView;

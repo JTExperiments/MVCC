@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+
 @protocol ViewController <NSObject>
 
 @property (nonatomic, weak) id controller;
@@ -16,5 +17,13 @@
 - (void)presentViewController:(id <ViewController>)controller;
 - (void)pushViewController:(id <ViewController>)controller;
 - (void)popViewController;
+
+@end
+
+#import <UIKit/UIKit.h>
+
+@interface ViewController <ObjectType> : UIViewController
+
+@property (nonatomic, weak) ObjectType controller;
 
 @end

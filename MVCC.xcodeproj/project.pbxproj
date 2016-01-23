@@ -30,6 +30,11 @@
 		1A87D9771C532F7500B5C53F /* MockNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D9761C532F7500B5C53F /* MockNavViewController.m */; };
 		1A87D9791C53303300B5C53F /* ViewControllerFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D9781C53303300B5C53F /* ViewControllerFactoryTests.m */; };
 		1A87D97C1C53328A00B5C53F /* UINavigationController+NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D97B1C53328A00B5C53F /* UINavigationController+NavViewController.m */; };
+		1A87D97E1C53357500B5C53F /* AddItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D97D1C53357500B5C53F /* AddItemTests.m */; };
+		1A87D9831C53363700B5C53F /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D9821C53363700B5C53F /* AddViewController.m */; };
+		1A87D9861C53370800B5C53F /* MockAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D9851C53370800B5C53F /* MockAddViewController.m */; };
+		1A87D9881C5339EF00B5C53F /* BaseControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D9871C5339EF00B5C53F /* BaseControllerTests.m */; };
+		1A87D98A1C533E9C00B5C53F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A87D9891C533E9C00B5C53F /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +102,14 @@
 		1A87D9781C53303300B5C53F /* ViewControllerFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerFactoryTests.m; sourceTree = "<group>"; };
 		1A87D97A1C53328A00B5C53F /* UINavigationController+NavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+NavViewController.h"; sourceTree = "<group>"; };
 		1A87D97B1C53328A00B5C53F /* UINavigationController+NavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+NavViewController.m"; sourceTree = "<group>"; };
+		1A87D97D1C53357500B5C53F /* AddItemTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItemTests.m; sourceTree = "<group>"; };
+		1A87D9811C53363700B5C53F /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		1A87D9821C53363700B5C53F /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		1A87D9841C53370800B5C53F /* MockAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockAddViewController.h; sourceTree = "<group>"; };
+		1A87D9851C53370800B5C53F /* MockAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockAddViewController.m; sourceTree = "<group>"; };
+		1A87D9871C5339EF00B5C53F /* BaseControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseControllerTests.m; sourceTree = "<group>"; };
+		1A87D9891C533E9C00B5C53F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A87D98B1C53411000B5C53F /* AddControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddControllerDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,26 +167,10 @@
 				1A87D9271C52A00D00B5C53F /* LaunchScreen.storyboard */,
 				1A87D92A1C52A00D00B5C53F /* Info.plist */,
 				1A87D9191C52A00C00B5C53F /* Supporting Files */,
-				1A87D91F1C52A00C00B5C53F /* ViewController.h */,
-				1A87D9741C532EA000B5C53F /* NavViewController.h */,
-				1A87D9701C52B5EA00B5C53F /* UIViewController+ViewController.h */,
-				1A87D9711C52B5EA00B5C53F /* UIViewController+ViewController.m */,
-				1A87D97A1C53328A00B5C53F /* UINavigationController+NavViewController.h */,
-				1A87D97B1C53328A00B5C53F /* UINavigationController+NavViewController.m */,
 				1A87D9581C52A14800B5C53F /* ViewControllerFactory.h */,
 				1A87D9591C52A14800B5C53F /* ViewControllerFactory.m */,
-				1A87D9611C52A27600B5C53F /* HomeViewController.h */,
-				1A87D9621C52A27600B5C53F /* HomeViewController.m */,
-				1A87D9641C52AC0300B5C53F /* DetailViewController.h */,
-				1A87D9651C52AC0300B5C53F /* DetailViewController.m */,
-				1A87D9551C52A0FF00B5C53F /* BaseController.h */,
-				1A87D9561C52A0FF00B5C53F /* BaseController.m */,
-				1A87D94C1C52A02100B5C53F /* HomeController.h */,
-				1A87D94D1C52A02100B5C53F /* HomeController.m */,
-				1A87D94F1C52A03D00B5C53F /* AddController.h */,
-				1A87D9501C52A03D00B5C53F /* AddController.m */,
-				1A87D9521C52A04300B5C53F /* DetailController.h */,
-				1A87D9531C52A04300B5C53F /* DetailController.m */,
+				1A87D97F1C53361400B5C53F /* ViewController */,
+				1A87D9801C53362900B5C53F /* Controller */,
 				1A87D95B1C52A1C100B5C53F /* Item.h */,
 				1A87D95C1C52A1C100B5C53F /* Item.m */,
 			);
@@ -192,7 +189,9 @@
 			isa = PBXGroup;
 			children = (
 				1A87D9331C52A00D00B5C53F /* MVCCTests.m */,
+				1A87D9871C5339EF00B5C53F /* BaseControllerTests.m */,
 				1A87D9781C53303300B5C53F /* ViewControllerFactoryTests.m */,
+				1A87D97D1C53357500B5C53F /* AddItemTests.m */,
 				1A87D96D1C52AF1A00B5C53F /* MockViewController.h */,
 				1A87D96E1C52AF1A00B5C53F /* MockViewController.m */,
 				1A87D95E1C52A24E00B5C53F /* MockHomeViewController.h */,
@@ -203,6 +202,8 @@
 				1A87D9761C532F7500B5C53F /* MockNavViewController.m */,
 				1A87D96A1C52AE4E00B5C53F /* MockDetailViewController.h */,
 				1A87D96B1C52AE4E00B5C53F /* MockDetailViewController.m */,
+				1A87D9841C53370800B5C53F /* MockAddViewController.h */,
+				1A87D9851C53370800B5C53F /* MockAddViewController.m */,
 				1A87D9351C52A00D00B5C53F /* Info.plist */,
 			);
 			path = MVCCTests;
@@ -215,6 +216,42 @@
 				1A87D9401C52A00D00B5C53F /* Info.plist */,
 			);
 			path = MVCCUITests;
+			sourceTree = "<group>";
+		};
+		1A87D97F1C53361400B5C53F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1A87D91F1C52A00C00B5C53F /* ViewController.h */,
+				1A87D9891C533E9C00B5C53F /* ViewController.m */,
+				1A87D9741C532EA000B5C53F /* NavViewController.h */,
+				1A87D9811C53363700B5C53F /* AddViewController.h */,
+				1A87D9821C53363700B5C53F /* AddViewController.m */,
+				1A87D9611C52A27600B5C53F /* HomeViewController.h */,
+				1A87D9621C52A27600B5C53F /* HomeViewController.m */,
+				1A87D9641C52AC0300B5C53F /* DetailViewController.h */,
+				1A87D9651C52AC0300B5C53F /* DetailViewController.m */,
+				1A87D9701C52B5EA00B5C53F /* UIViewController+ViewController.h */,
+				1A87D9711C52B5EA00B5C53F /* UIViewController+ViewController.m */,
+				1A87D97A1C53328A00B5C53F /* UINavigationController+NavViewController.h */,
+				1A87D97B1C53328A00B5C53F /* UINavigationController+NavViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		1A87D9801C53362900B5C53F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A87D9551C52A0FF00B5C53F /* BaseController.h */,
+				1A87D9561C52A0FF00B5C53F /* BaseController.m */,
+				1A87D94C1C52A02100B5C53F /* HomeController.h */,
+				1A87D94D1C52A02100B5C53F /* HomeController.m */,
+				1A87D98B1C53411000B5C53F /* AddControllerDelegate.h */,
+				1A87D94F1C52A03D00B5C53F /* AddController.h */,
+				1A87D9501C52A03D00B5C53F /* AddController.m */,
+				1A87D9521C52A04300B5C53F /* DetailController.h */,
+				1A87D9531C52A04300B5C53F /* DetailController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,6 +384,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A87D98A1C533E9C00B5C53F /* ViewController.m in Sources */,
 				1A87D95D1C52A1C100B5C53F /* Item.m in Sources */,
 				1A87D94E1C52A02100B5C53F /* HomeController.m in Sources */,
 				1A87D97C1C53328A00B5C53F /* UINavigationController+NavViewController.m in Sources */,
@@ -357,6 +395,7 @@
 				1A87D9661C52AC0300B5C53F /* DetailViewController.m in Sources */,
 				1A87D9511C52A03D00B5C53F /* AddController.m in Sources */,
 				1A87D9721C52B5EA00B5C53F /* UIViewController+ViewController.m in Sources */,
+				1A87D9831C53363700B5C53F /* AddViewController.m in Sources */,
 				1A87D91E1C52A00C00B5C53F /* AppDelegate.m in Sources */,
 				1A87D91B1C52A00C00B5C53F /* main.m in Sources */,
 			);
@@ -366,10 +405,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A87D9881C5339EF00B5C53F /* BaseControllerTests.m in Sources */,
 				1A87D9771C532F7500B5C53F /* MockNavViewController.m in Sources */,
 				1A87D9691C52AE2D00B5C53F /* MockViewControllerFactory.m in Sources */,
 				1A87D96C1C52AE4E00B5C53F /* MockDetailViewController.m in Sources */,
+				1A87D9861C53370800B5C53F /* MockAddViewController.m in Sources */,
 				1A87D9791C53303300B5C53F /* ViewControllerFactoryTests.m in Sources */,
+				1A87D97E1C53357500B5C53F /* AddItemTests.m in Sources */,
 				1A87D9341C52A00D00B5C53F /* MVCCTests.m in Sources */,
 				1A87D9601C52A24E00B5C53F /* MockHomeViewController.m in Sources */,
 				1A87D96F1C52AF1A00B5C53F /* MockViewController.m in Sources */,

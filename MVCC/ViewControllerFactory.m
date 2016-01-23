@@ -6,8 +6,8 @@
 //  Copyright © 2016 James Tang. All rights reserved.
 //
 
-#import "ViewControllerFactory.h"
 #import <UIKit/UIKit.h>
+#import "ViewControllerFactory.h"
 #import "UIViewController+ViewController.h"
 #import "UINavigationController+NavViewController.h"
 
@@ -15,6 +15,11 @@
 
 - (id <ViewController>)viewController {
     return [[UIViewController alloc] init];
+}
+
+- (id<AddViewController>)addViewController {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    return [storyboard instantiateViewControllerWithIdentifier:@"AddViewController"];
 }
 
 - (id<DetailViewController>)detailViewController {

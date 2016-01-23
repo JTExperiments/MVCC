@@ -10,6 +10,7 @@
 #import "DetailViewController.h"
 #import "NavViewController.h"
 #import "HomeViewController.h"
+#import "AddViewController.h"
 
 @protocol ViewControllerFactory <NSObject>
 
@@ -17,6 +18,7 @@
 - (id <NavViewController>)navViewControllerWithViewController:(id <ViewController>)viewController;
 - (id <DetailViewController>)detailViewController;
 - (id <HomeViewController>)homeViewController;
+- (id <AddViewController>)addViewController;
 
 @end
 

@@ -19,7 +19,7 @@
 @end
 
 
-@interface DetailViewController : UIViewController <DetailViewController>
+@interface DetailViewController : ViewController <DetailViewController>
 
 @property (nonatomic, weak) DetailController *controller;
 @property (weak, nonatomic) IBOutlet UIButton *closeButton;

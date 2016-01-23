@@ -7,7 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BaseController.h"
+#import "AddControllerDelegate.h"
 
-@interface AddController : NSObject
+@class Item;
+@class AddController;
+
+@interface AddController : BaseController
+
+@property (nonatomic, weak) id <AddControllerDelegate> delegate;
+
+- (void)addItem:(Item *)item;
 
 @end
